@@ -18,6 +18,10 @@ view: ortho_procedures {
     hidden: yes
     type: string
     sql: ${TABLE}.patient_id ;;
+    link: {
+      label: "Open Vertex AI Search"
+      url: "https://fhir-search-demo.googleplex.com/"}
+
   }
 
   dimension: npi {
