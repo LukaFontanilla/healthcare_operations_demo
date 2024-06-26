@@ -6,6 +6,10 @@ view: ortho_patient {
     primary_key: yes
     type: string
     sql: ${TABLE}.patient_id ;;
+    link: {
+      label: "Patient Vertex AI Search"
+      url: "https://fhir-search-demo.googleplex.com/"
+      }
   }
 
   dimension: first_name {
